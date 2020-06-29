@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "alias": "masons-hack-to-the-future",
+  "name": "masons-hack-to-the-future-app",
+  "routes": [
+    {
+      "handle": "filesystem"
+    },
+    {
+      "src": ".*",
+      "dest": "/index.html"
+    }
+  ]
+}
